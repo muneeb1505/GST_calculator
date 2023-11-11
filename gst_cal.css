@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 10px 10px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+#amount {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+#amt span{
+    color: yellow;
+    font-weight: bold;
+}
+#gst {
+    margin-top: 10px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+#per {
+    margin-top: 10px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+#percent span{
+    color: yellow;
+    font-weight: bold;
+}
+#res {
+    margin-top: 10px;
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-align: left;
+    text-align: center;
+}
+#rest span{
+    color: yellow;
+    font-weight: bold;
+}
+button {
+    margin-top: 22px;
+}
+
+#res:hover {
+    border: 2px solid aqua;
+}
+
+h1 {
+    margin: 10px 26px;
+}
